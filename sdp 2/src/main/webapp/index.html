@@ -1,14 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
 </head>
 <body>
-hello  world
-sakshi here
-reva university
-hostel g1
-computer science
+
+<div class="header">
+  <h1>New launched phones</h1>
+  <p>A</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>Galaxy Z Flip4</h2>
+    <h5></h5>
+    <div class="fakeimg" style="height:200px;"><img src="G:\proimg\img1.jpg" width="200" height="150"></div>
+    <p style="color:red"> SPECIFICATIONS</p>
+     <p style="color:blue">NETWORK</p><p> Technology--> &ensp;   GMS/CDMA/HSPA/EVDO/LTE/5G<br></P>
+     <P style="color:blue">  LAUNCH</P> ANNOUNCED STATUS--> &ensp; 2022, August 10 Status	Coming soon. Exp. release 2022, August 25</p>
+  <P style="color:blue">BODY</p><p>Dimensions-->&ensp;Unfolded: 165.2 x 71.9 x 6.9 mm Folded: 84.9 x 71.9 x 15.9-17.1 mm<br>
+   weight-->187 g (6.60 oz)<br>
+   build-->Plastic front (opened), glass back (Gorilla Glass Victus+), aluminum frame<br>
+   sim-->Nano-SIM, eSIM
+ 	IPX8 water resistant (up to 1.5m for 30 mins)
+     Armour aluminum frame with tougher drop and scratch resistance (advertised)</P>
+     <P style="color:blue">DISPLAY-&ensp;</p> <p>Type-->Foldable Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (peak)<br>
+     size-->6.7 inches, 101.5 cm2 (~85.4% screen-to-body ratio)<br>
+     Resolution-->1080 x 2640 pixels (~426 ppi density)
+ 	Cover display:
+Super AMOLED, 1.9 inches, 260 x 512 pixels (Gorilla Glass Victus+)</p>
+<p style="color:blue">PLATFORM</p>
+<P>os-->Android 12, One UI 4.1.1<br>
+chipset-->Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)<br>
+cpu-->Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)</P>
+<p style="color:blue">MEMORY</p>
+caed slot-->no<br>
+internal-->128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM
+ 	UFS 3.1</p>
+ <p style="color:blue">MAIN MEMORY</p>
+ <P>dual-->12 MP, f/1.8, 24mm (wide), 1.8µm, Dual Pixel PDAF, OIS
+12 MP, f/2.2, 123˚ (ultrawide), 1.12µm<br>
+features-->LED flash, HDR, panorama<BR>
+video-->4K@30/60fps, 1080p@60/240fps, 720p@960fps, HDR10+</P>
+<p style="color:blue">SELFIE CAMARA</p>
+<p>single-->10 MP, f/2.4, 26mm (wide), 1.22µm<br>
+features-->HDR</p>
+
+   
+    <h2>OnePlus Nord CE 2 Lite 5G</h2>
+    <h5></h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p style="color:red">SPECIFICATIONS</p>
+    <p style="color:blue"> NETWORK</p>
+    <P> technology--> GSM/HSPA/LTE/5G</P>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
 </body>
 </html>
